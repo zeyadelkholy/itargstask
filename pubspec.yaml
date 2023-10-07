@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_bloc: ^8.1.1
   flutter_switch: ^0.0.2
   audioplayers: ^0.20.1
   shared_preferences: ^2.1.1
@@ -35,6 +36,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
+
 
 
 

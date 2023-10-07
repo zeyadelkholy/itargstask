@@ -37,12 +37,12 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
         unselectedItemColor: Colors.black,
         items:  <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage('assets/Home_no selection.png'),),
+            icon: const ImageIcon(AssetImage('assets/Home_no selection.png'),),
             label: AppLocalizations.of(context)!
               .translate("Home key"),
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage('assets/More_not selected.png')),
+            icon: const ImageIcon(AssetImage('assets/More_not selected.png')),
             label: AppLocalizations.of(context)!
         .translate("More key"),
           ),
